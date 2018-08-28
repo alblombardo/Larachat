@@ -40,7 +40,7 @@
     <div class="clearfix"></div>
     <!-- /.login-logo -->
     <div class="login-box-body" style="position:relative">
-        <a href="{{ route('admin::dashboard') }}"><img src="{{ asset('/images/logo.jpg') }}" style="height: 50px;position:absolute;top:0;left:0"></a>
+        <h2>LaraChat</h2>
         <p class="login-box-msg" style="margin-top:50px">Accedi per avviare la sessione.</p>
         <form action="{{ route('login') }}" method="post">
             {{ csrf_field() }}
