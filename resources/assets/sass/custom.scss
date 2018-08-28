@@ -1,0 +1,27 @@
+.form-group.required .control-label:after {
+  content:" *";
+  color:red;
+}
+
+thead tr{
+  font-weight:bold;
+}
+
+.mdl-multiselect{
+  overflow-y:auto;
+  border:none;
+  padding: 6px 0;
+}
+
+.mdl-multiselect option{
+  padding: 5px;
+}
+
+.mdl-multiselect option:checked{
+  background: #ccd0d2 linear-gradient(0deg, #ccd0d2 0%, #ccd0d2 100%);
+}
+
+.mdl-alert ul{
+  padding-left: 15px;
+}
+
