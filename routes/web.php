@@ -42,3 +42,6 @@ Route::middleware(['auth'])->post('toggleSidebar', function () {
     (session('collapseSidebar')) ? (session(['collapseSidebar' => 0])) : (session(['collapseSidebar' => 1]));
     return 'collapseSidebar = ' . session('collapseSidebar');
 })->name('toggleSidebar');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
